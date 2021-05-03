@@ -1,0 +1,183 @@
+/* main__product-left */
+
+.main__product-left {
+    background-color:  #EBEDED;;
+    display: flex;
+    flex-direction: column;
+    min-height: 960px;
+}
+
+.product-left__order {
+    flex: 1;
+}
+
+.product-left__order-list {
+    margin-top: 52px;
+    margin-right: 12px;
+    list-style: none;
+    padding-top: 0;
+    padding-left: 0;
+    height: 82vh;
+    overflow-y: auto;
+}
+
+.product-left__order-list-item {
+    padding-right: 20px;
+}
+
+.product-left__order-item {
+    width: 100%;
+    display: flex; 
+    margin-bottom: 14.8px;
+}
+
+.product-left__order-accessories {
+    width: 100%;
+    display: flex;
+    margin-bottom: 6.7px;
+}
+
+.product-left__image {
+    width: 190px;
+    height: 94px;
+    text-align: center;
+    margin-right: 8px;
+}
+
+.product-left__image img {
+    max-width: 100%;
+    max-height: 100%;
+    padding: 10px 0;
+}
+
+.product-left__accessories-image {
+    width: 114px;
+    height: 131px;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 56px;
+}
+
+.product-left__accessories-image img {
+    max-width: 100%;
+    max-height: 100%;
+    padding: 8px 0;
+}
+
+.product-left__info {
+    flex: 1;
+    margin-top: 4px;
+}
+
+.product-left__info-heading {
+    display: flex;
+}
+
+.product-left__info-heading h5 {
+    margin: 0;
+}
+
+.product-left__info-name {
+    font-size: 1.7rem;
+    line-height: 2.7rem;
+}
+
+.product-left__info-description {
+    font-size: 1.7rem;
+    line-height: 2.7rem;
+    font-weight: 400;
+    padding-left: 6px;
+}
+
+.product-left__info-size {
+    font-size: 1.7rem;
+    line-height: 2.7rem;
+    font-weight: 400;
+}
+
+.product-left__quantity-price {
+    display: flex;
+}
+
+.product-left__quantity {
+    display: block;
+    flex: 1;
+    font-size: 1.7rem;
+    line-height: 2.7rem;
+    font-weight: 400;
+}
+
+.product-left__price {
+    display: block;
+    font-size: 1.7rem;
+    line-height: 2.7rem;
+    font-weight: 400;
+    font-weight: 700;
+}
+
+.product-left__order-pay {
+    margin-right: 40px;
+    margin-left: 39px;
+}
+
+.product-left__pay h5 {
+    margin-bottom: 0;
+    font-size: 1.7rem;
+    line-height: 2.7rem;
+    font-weight: 400;
+}
+
+.product-left__pay-provisional {
+    display: flex;
+    margin: 4px;
+}
+
+.product__pay-provisional-title {
+    flex: 1;
+}
+
+
+.product-left__delivery-charges {
+    display: flex;
+}
+
+.product__delivery-charges-title {
+    flex: 1;
+}
+
+.product-left__pay-total {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.product-left__pay-total h5{
+    font-weight: 700;
+}
+
+.product__pay-total-title {
+    flex: 1;
+}
+
+.product-left__pay-seperate {
+    border-top: 1px solid var(--border-color);
+    margin: 20px 0;
+}
+
+/* custom scrollbar */
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+    margin-left: 40px;
+} 
+
+  /* Track */
+::-webkit-scrollbar-track {
+    background: var(--white-color);
+}  
+
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    border-top: 18px solid #111820;
+    background: #111820;
+    background-clip: padding-box;
+} 

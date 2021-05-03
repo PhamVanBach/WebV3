@@ -1,0 +1,318 @@
+.main {
+    overflow: hidden;
+}
+
+.header {
+    position: relative;
+    padding-top: 50%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, .4), rgba(0, 0, 0, 0)), url(../Images/TrangChu/NAV/HeroIMG.png) left top / cover no-repeat;
+}
+
+.header__sidebar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 49px;
+}
+
+.header__list {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.header__list-item {
+
+}
+
+.header__list-icons {
+    display: flex;
+    align-items: center;
+}
+
+.header__list-link {
+    text-decoration: none;
+    color: transparent;
+}
+
+.header__list-icon-link {
+    display: inline-block;
+    margin: 0;
+    text-align: center;
+    width: var(--nav-item-height);
+    height:var(--nav-item-height);
+    
+}
+
+.header__list-icon img{
+    top: 50%;
+    transform: translate(0, -50%);
+} 
+
+.header__list-icon-smile {
+    position: relative;
+    margin-right: 49px;
+    margin-top: 14px;
+}
+
+.header__list-icon-sneaker {
+    
+}
+.header__list-neaker {
+    position: relative;
+}
+.header__list-neaker-quantity {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: inline-block;
+    margin: 0;
+    font-size: 1.7rem;
+    line-height: 2.7rem;
+    color: var(--white-color);
+    font-weight: 700;
+}
+
+/* navigation */
+
+.header-nav {
+    width: var(--nav-item-height);
+    height:var(--nav-item-height);
+}
+
+/* header content */
+
+.header__content {
+    position: absolute;
+    top: 180px;
+    left: 120px;
+}
+
+.header__content-heading {
+    --size: 11.2rem;
+    font-size: var(--size);
+    line-height: var(--size);
+    color: var(--white-color);
+    margin: 0 0 8px 0;
+    font-weight: 700;
+}
+
+.header__content-description {
+    font-size: 2.7rem;
+    line-height: 3.5rem;
+    color: var(--white-color);
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+.header__content-btn {
+    background-color: var(--white-color);
+}
+
+.header__carousel {
+    position: absolute;
+    bottom: 4px;
+    color: turquoise;
+}
+
+/* main product */
+.main__product {
+}
+
+.main__product-title {
+    /* font-weight: 900; */
+    font-size: 2.7rem;
+    line-height: 3.5rem;
+    margin: 120px 0 32px  120px;
+}
+
+.main__product-mt {
+    margin-top: 240px;
+}
+
+.main__product-img {
+    --height: 480px;
+    width: var(--height);
+    height: var(--height);
+    margin: 32px 0;
+}
+
+.main__product-img img {
+    
+}
+
+.main__product-description {
+    padding-bottom: 120px;
+}
+
+.gutter {
+    --gutter: 120px;
+    padding-left: var(--gutter);
+    padding-right: var(--gutter);
+}
+
+.main__product-description-sm {
+    display: block;
+    font-size: 1.7rem;
+    line-height: 2.7rem;
+    font-weight: 400;
+    color: var(--text-color);
+}
+
+.main__product-description-large {
+    display: block;
+    font-size: 4rem;
+    line-height: 4.8rem;
+    font-weight: 400;
+    color: var(--text-color);
+}
+
+/* main content */
+.main__content {
+    border-top: 1px solid var(--border-color);
+    margin-left: 120px;
+}
+
+.main__content-story {  
+    padding: 0;
+    padding-top: 20px;
+}
+
+.main__content-preface {
+    display: block;
+    width: 78%;
+    font-size: 4rem;
+    line-height: 4.8rem;
+    font-weight: 400;
+    color: var(--text-color);
+}
+
+.main__content-btn {
+    color: var(--text-color);
+    border: 1px solid var(--border-color);
+    margin-top: 40px;
+}
+
+.main__content-slogan {
+    padding: 120px 0 120px 0;
+}
+
+/* slide images */
+.main__insta {
+    border-top: 1px solid var(--border-color);
+    margin-left: 121px;
+}
+
+.main__insta-content {
+    
+}
+
+.main__insta-heading {
+    height: 46px;
+    margin-top: 20px;
+    margin-bottom: 64px;
+    display: flex;
+    align-items: center;
+}
+
+.main__insta-icon {
+    display: block;
+    color: var(--text-color);
+}
+
+.main__insta-hastag {
+    display: block;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 35px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+
+.main__insta-list {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+/* .main__insta-list::-webkit-scrollbar {
+    display: none;
+} */
+
+.main__insta-item {
+    height: 400px;
+    flex-shrink: 0;
+    margin-right: 40px;
+}
+
+/* main about */
+.main__about-navigation {
+    border-top: 1px solid var(--border-color);
+    margin: 131px  0 0 120px;
+    padding: 0;
+}
+
+.main__about-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 426px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 70px;
+}
+
+.main__about-item {
+    --height: 57px;
+    padding-top: 20px;
+    height: var(--height);
+    line-height: var(--height);
+}
+
+.main__about-item--active {
+    border-top: 5px solid var(--border-color);
+}
+
+.main__about-title {
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 35px;
+    padding-top: 20px;
+}
+
+.main__about-title p {
+    margin: 0;
+}
+
+.main__about-content {
+    display: block;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 48px;
+    width: 722px;
+    margin-bottom: 20px;
+}
+
+.main__about-readmore {
+    display: block;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 132px;
+}
+
+.main__about-link {
+    text-decoration: none;
+    color: var(--text-color); 
+}

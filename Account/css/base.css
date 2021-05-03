@@ -1,0 +1,59 @@
+:root {
+    --white-color: #fff;
+    --nav-item-height: 46px;
+    --text-color: #111820;
+    --border-color: #111820;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    /*Trick de fontsize 62,5% thì 1rem  sẽ là 10px muốn để
+    font-size = 12 thì --> 1.2rem*/
+    font-size: 62.5%;
+    line-height: 2.7rem;
+    /*font sans-serif là chủng font chữ k chân, sẽ hiển thị
+    trong khi đợi font Roboto được tải về*/
+    font-family: 'Lab Grotesque VN', sans-serif;
+    box-sizing: border-box;
+}
+
+.app_container {
+    max-width: 1440px;
+    margin: auto;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+h5,h1 {
+    margin-bottom: 0;
+}
+
+h5.bold {
+    font-weight: 700;
+   
+}
+
+.button-conf {
+    min-width: 151px;
+    height: 48px;
+    text-decoration: none;
+    border: none;
+    padding: 0 40px 2px;
+    border-radius: 24px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    line-height: 2.7rem;
+    font-weight: 400;
+}

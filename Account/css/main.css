@@ -1,0 +1,80 @@
+.main__content-on-left {
+    margin-left: 120px;
+    display: flex;
+    flex-direction: column;
+    height: 720px;
+}
+
+.main__greeting {
+    margin-top: 58px;
+    flex: 1;
+}
+
+.main__greeting-icon {
+    --height: 83.5px;
+    width: var(--height);
+    height: var(--height);
+    position: relative;
+}
+
+.main__greeting-say-hi {
+    font-size: 112px;
+    font-weight: 700;
+    line-height: 112px;
+}
+
+
+.main__greeting-user-name {
+    font-size: 112px;
+    font-weight: 700;
+    line-height: 112px;
+}
+
+
+.main__good-bye {
+
+}
+
+.main__logout {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.main__logout-icon {
+    --height: 32px;
+    width: var(--height);
+    height: var(--height);
+    position: relative;
+}
+
+.main__icon {
+    position: absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+}
+
+.main__logout-text {
+    margin-left: 17.8px;
+}
+
+.main__remove-account {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.main__remove-account-icon {
+    --height: 32px;
+    width: var(--height);
+    height: var(--height);
+    position: relative;
+}
+
+.main__remove-text {
+    margin-left: 17.8px;
+}
